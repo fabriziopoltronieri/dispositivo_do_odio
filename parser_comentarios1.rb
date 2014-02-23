@@ -14,5 +14,4 @@ class Comentarios1
     # return the links
     main_links
   end
-  
 end
