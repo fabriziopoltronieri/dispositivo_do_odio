@@ -11,7 +11,5 @@ comentarios_main = Comentarios1.new
 main_links = comentarios_main.get_main_links
 
 # get the proper comments
-proper_comments = ParserComentariosProperPage.new
-main_links.each do |x|
-  proper_comments.get_proper_comments(x)
-end
+proper_comments = ParserComentariosProperPage.new(main_links)
+proper_comments.get_proper_comments
